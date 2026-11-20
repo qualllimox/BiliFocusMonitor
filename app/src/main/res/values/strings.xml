@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">B站自律监督</string>
+    <string name="accessibility_service_label">B站自律监督（自动退出控制）</string>
+    <string name="accessibility_service_desc">用于在今日哔哩哔哩使用时长达到设定阈值时，自动返回桌面并弹出复习提醒。本服务仅监听B站窗口切换，不读取任何屏幕隐私内容。</string>
+</resources>
