@@ -113,12 +113,9 @@ object UsageHelper {
             val ms = getBiliUsageMillisForDay(context, i)
             weekTotal += ms
             sb.append("• ").append(label).append("：").append(formatDuration(ms))
-            if (i < 6) sb.append("
-")
+            if (i < 6) sb.append("\n")
         }
-        sb.append("
-
-近7天日均：").append(formatDuration(weekTotal / 7))
+        sb.append("\n\n近7天日均：").append(formatDuration(weekTotal / 7))
         return sb.toString()
     }
 
